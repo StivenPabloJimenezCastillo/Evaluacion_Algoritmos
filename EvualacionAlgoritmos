@@ -1,15 +1,15 @@
 1.1 sub_program p1(n)
       s=0......................1
-      for i=1 to n do..........1+1
-        for j=1 to i do........1^2+1
-          for k=1 to j do......1^3+1
-            s=s+1..............1^3
-          end(for).............1^3
-        end(for)...............1^2
-      end(for).................1
+      for i=1 to n do..........n+1
+        for j=1 to i do........nxi+n
+          for k=1 to j do......nxixj+n
+            s=s+1..............nxixj
+          end(for).............nxixj
+        end(for)...............nxi
+      end(for).................n
     fin (sub_programa)
-Contador de frecuencias=      11
-ejecución del algoritmo es O(1) constante
+Contador de frecuencias=      3nxixj + 2nxi + 4n + 2
+Orden de Magnitud O(nxixj)
 
 
 
