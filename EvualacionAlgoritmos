@@ -24,9 +24,9 @@ ejecución del algoritmo es O(1) constante
         else
           j=k-1
         end(if)..............log2n
-      while i<=j.............n+1
+      while i<=j.............log2n
     fin (sub_programa)
-Contador de frecuencias=      4log2n+n+3
+Contador de frecuencias=      6log2n+2
 Logaritmo de base 2 de n 
 
 
